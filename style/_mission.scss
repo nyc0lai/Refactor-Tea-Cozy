@@ -1,0 +1,27 @@
+#mission {
+    display: flex;
+    margin-top: 70px;
+    height: 700px;
+    max-width: 1200px;
+    background: url("#{$img-path}img-mission-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    h2 {
+        padding-top: 10px;
+    }
+      
+    h4 {
+        padding-bottom: 10px;
+    }
+  }
+  .center-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $items-background-color;
+    width: 100%;
+    height: auto;
+    row-gap: 15px;
+  }
+  
